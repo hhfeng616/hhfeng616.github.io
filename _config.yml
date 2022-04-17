@@ -57,8 +57,17 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-disqus_username: hhfeng616
+#disqus_username: hhfeng616
 
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 5b59eb75fdacd81e5eac                            #生成的clientID
+  clientSecret: e04fcd663a7e02a0d55bda9a6966ea2fc85002ad     #生成的clientSecret
+  repo: hhfeng616.github.io    #仓库名称
+  owner: hhfeng616    #github用户名
+  admin: hhfeng616
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 # 统计
 
