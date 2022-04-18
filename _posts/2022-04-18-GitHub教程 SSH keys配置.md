@@ -30,8 +30,8 @@ SSH 为 Secure Shell 的缩写，由 IETF 的网络小组（Network Working Grou
 如果电脑上没有，那就显示 
 ```No such file or directory```
 
-![](https://wx1.sinaimg.cn/mw2000/008s0pRagy1h1dru24q0fj30iz04xab4.jpg)
-![](https://wx2.sinaimg.cn/mw2000/008s0pRagy1h1dru2e6anj30qg03habj.jpg)
+![](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed_02/cdn/20220418135711515.jpg)
+![](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed_02/cdn/20220418135816802.jpg)
 
 ## 2.创建SSH Key
 如果你电脑上有了，你就可以直接跳过这一步
@@ -64,23 +64,23 @@ Your identification has been saved in /C/Users/huang'jin'feng/.ssh/id_rsa
 Your public key has been saved in /C/Users/huang'jin'feng/.ssh/id_rsa.pub
 ```
 还会向你展示你的秘钥长啥样
-![](https://wx3.sinaimg.cn/mw2000/008s0pRagy1h1dru2oae0j30mz0d4n36.jpg)
+![](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed_02/cdn/20220418135836386.jpg)
 
 完成之后你可以用命令.ssh看一下，文件是真的存在了。
 
 
 ## 3.添加SSH Key到GitHub
 首先打开Github网页
-![](https://wx2.sinaimg.cn/mw2000/008s0pRagy1h1dru2vlzfj30jg0ea0v7.jpg)
-![](https://wx2.sinaimg.cn/mw2000/008s0pRagy1h1dru3gpm1j30sf0djgt5.jpg)
+![](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed_02/cdn/20220418135851231.jpg)
+![](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed_02/cdn/20220418135907949.jpg)
 （黄色框框是我已经建立的SSH key。）
 点击右上角新建一个SSH Key。
-![](https://wx2.sinaimg.cn/mw2000/008s0pRagy1h1dru3sj51j30ks0cjwhq.jpg)
+![](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed_02/cdn/20220418135924088.jpg)
 title随便给他起个名字就好。然后是key，这时候你要打开你刚才在电脑上的SSH key。
 按照红框框里的路径，找到.ssh文件夹。用记事本打开id_rsa.pub文件，全选其中的内容粘贴到网页的Key中。
-![](https://wx3.sinaimg.cn/mw2000/008s0pRagy1h1dru41inij30i306xwfj.jpg)
+![](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed_02/cdn/20220418135943124.jpg)
 然后你就会受到建立成功的邮件了。
-![](https://wx3.sinaimg.cn/mw2000/008s0pRagy1h1dru4h6hrj30br04t3zt.jpg)
+![](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed_02/cdn/20220418140002338.jpg)
 
 
 ## 4.测试一下该SSH key
@@ -98,7 +98,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 输入yes，回车
 然后你就会受到建立成功的邮件了。
-![](https://wx1.sinaimg.cn/mw2000/008s0pRagy1h1dru49kz6j30rd04g76q.jpg)
+![](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed_02/cdn/20220418140017145.jpg)
 接下来就会提示你输入密码，如果上边设置ssh的时候，你没设置密码会提示你：
 ```
 Warning: Permanently added 'github.com (20.205.243.166)' (RSA) to the list of known hosts.
