@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      随便聊聊
-subtitle:   2017 情人节快乐~ 
+title:      GitHub教程 SSH keys配置
+subtitle:   Git操作学习中！ 
 date:       2017-02-14
 author:     BY
 header-img: img/post-bg-2015.jpg
