@@ -1903,7 +1903,7 @@
                     value: function genDom() {
                         this.createDom(_defineProperty({
                             className: 'tctip-qr-title'
-                        }, _dom.textKey, 'buy me a coffee.🍷'), 'p');
+                        }, _dom.textKey, '请我喝咖啡.🍷'), 'p');
                     }
                 }]);
 
@@ -2047,7 +2047,7 @@
                     key: 'genDom',
                     value: function genDom() {
                         this.createDom(_defineProperty({
-                            href: 'https://flyingwzb.github.io/',
+                            href: 'https://hhfeng616.github.io/',
                             target: '_blank'
                         }, _dom.textKey, '了解更多⚽🏀💻'), 'a');
                     }
